@@ -1,22 +1,133 @@
-.App {
+:root {
+  --black-color: #1C1C1C;
+  --yellow-color: #FFE81F;
+  --white-color: #FEFEFE;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.App-main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--black-color);
+}
+
+/* Quote container */
+.App-main section.App-container {
+  position: relative;
+  width: calc(100% - 100px);
+  max-width: 800px;
+  height: calc(100% - 100px);
+  border-radius: 0px;
+  border-top: 3px solid var(--yellow-color);
+  border-bottom: 3px solid var(--yellow-color);
+}
+@media screen and (min-width: 768px) {
+  .App-main section.App-container {
+    height: auto;
+    border-radius: 10px;
+    border-left: 3px solid var(--yellow-color);
+    border-right: 3px solid var(--yellow-color);
+  }
+}
+
+/* Quote content */
+section.App-container {
+  text-align: center;
+}
+section.App-container h1 {
+  position: relative;
+  top: -12px;
+  display: inline-block;
+  margin: 0px;
+  padding: 0 1.5em;
+  background-color: var(--black-color);
+
+  color: var(--yellow-color);
+  font-size: .9em;
+  font-style: italic;
+  font-weight: 600;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+article#quote-box {
+  width: 100%;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  article#quote-box {
+    width: calc(100% - 6em);
+    padding: 1em 3em 3em 3em;
+  }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p#text {
+  margin: 0;
+  margin-bottom: .8em;
+  color: var(--yellow-color);
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  p#text {
+    font-size: 3em;
+  }
 }
 
-.App-link {
-  color: #09d3ac;
+small#author {
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-bottom: .2em;
+
+  color: var(--white-color);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+}
+@media screen and (min-width: 768px) {
+  small#author {
+    font-size: 1.5em;
+  }
+}
+
+small#source {
+  display: block;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 2em;
+
+  color: var(--white-color);
+  font-size: .9em;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+}
+
+a#tweet-quote {
+  display: block;
+  margin-bottom: 1em;
+
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 600;
+  text-align: left;
+}
+
+
+button#new-quote {
+  width: 100%;
 }
