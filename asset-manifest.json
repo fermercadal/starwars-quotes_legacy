@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/starwars-quotes/static/css/main.b65d17ba.chunk.css",
+    "main.js": "/starwars-quotes/static/js/main.27f6dd8a.chunk.js",
+    "main.js.map": "/starwars-quotes/static/js/main.27f6dd8a.chunk.js.map",
+    "runtime-main.js": "/starwars-quotes/static/js/runtime-main.6d02cf17.js",
+    "runtime-main.js.map": "/starwars-quotes/static/js/runtime-main.6d02cf17.js.map",
+    "static/js/2.d291d767.chunk.js": "/starwars-quotes/static/js/2.d291d767.chunk.js",
+    "static/js/2.d291d767.chunk.js.map": "/starwars-quotes/static/js/2.d291d767.chunk.js.map",
+    "index.html": "/starwars-quotes/index.html",
+    "precache-manifest.a5c94d097ab618b563bc2b95335a72ea.js": "/starwars-quotes/precache-manifest.a5c94d097ab618b563bc2b95335a72ea.js",
+    "service-worker.js": "/starwars-quotes/service-worker.js",
+    "static/css/main.b65d17ba.chunk.css.map": "/starwars-quotes/static/css/main.b65d17ba.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6d02cf17.js",
+    "static/js/2.d291d767.chunk.js",
+    "static/css/main.b65d17ba.chunk.css",
+    "static/js/main.27f6dd8a.chunk.js"
+  ]
+}
