@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2fbed5fefbab611fd383e87058ed8866",
+    "revision": "f0faafe53affecae440890d4ef4e1735",
     "url": "/starwars-quotes/index.html"
   },
   {
-    "revision": "2680c72d0985f73e9019",
+    "revision": "6d5b898d3295d2c32098",
     "url": "/starwars-quotes/static/css/main.b65d17ba.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/starwars-quotes/static/js/2.d291d767.chunk.js"
   },
   {
-    "revision": "2680c72d0985f73e9019",
-    "url": "/starwars-quotes/static/js/main.27f6dd8a.chunk.js"
+    "revision": "6d5b898d3295d2c32098",
+    "url": "/starwars-quotes/static/js/main.92a40cb7.chunk.js"
   },
   {
     "revision": "12287922697217c5fd11",
