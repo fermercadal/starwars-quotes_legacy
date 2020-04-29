@@ -63,6 +63,7 @@ section.App-container h1 {
 article#quote-box {
   width: 100%;
   padding: 0px;
+  text-align: left;
 }
 @media screen and (min-width: 768px) {
   article#quote-box {
@@ -75,7 +76,7 @@ p#text {
   margin: 0;
   margin-bottom: .8em;
   color: var(--yellow-color);
-  font-size: 2em;
+  font-size: 1.6em;
   font-style: italic;
   font-weight: 600;
   text-align: left;
@@ -118,16 +119,41 @@ small#source {
 }
 
 a#tweet-quote {
-  display: block;
+  display: inline-block;
   margin-bottom: 1em;
 
+  color: var(--white-color);
   font-size: 1em;
   font-style: italic;
   font-weight: 600;
   text-align: left;
+  text-decoration: none;
 }
-
-
+  a#tweet-quote:hover {
+    color: var(--yellow-color);
+    text-decoration: underline;
+  }
+  
 button#new-quote {
   width: 100%;
+  padding: 10px;
+
+  background: transparent;
+  border: 2px solid var(--white-color);
+
+  color: var(--white-color);
+  font-family: 'Montserrat', sans-serif;
+  font-size: .9en;
+  font-weight: 700;
 }
+  button#new-quote:hover {
+    border: 2px solid var(--yellow-color);
+    color: var(--yellow-color);
+    cursor: pointer;
+  }
+
+  button#new-quote:focus,
+  a#tweet-quote:focus {
+    outline: 2px dotted var(--yellow-color);
+    outline-offset: 5px;
+  }

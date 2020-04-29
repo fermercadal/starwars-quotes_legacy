@@ -14,7 +14,8 @@ class App extends React.Component {
       currentQuote: {
         text: undefined,
         author: undefined,
-        source: undefined
+        source: undefined,
+        tweetLink: undefined
       }
     }
 
@@ -28,7 +29,8 @@ class App extends React.Component {
         currentQuote: {
           text: quotesData[quote].text,
           author: quotesData[quote].author,
-          source: quotesData[quote].source
+          source: quotesData[quote].source,
+          tweetLink: "https://twitter.com/intent/tweet?text='" + quotesData[quote].text + "' by " + quotesData[quote].author + " on " + quotesData[quote].source
         }
       })
     });
@@ -53,7 +55,10 @@ class App extends React.Component {
             <p id="text">"{this.state.currentQuote.text}"</p>
             <small id="author">{this.state.currentQuote.author}</small>
             <small id="source">{this.state.currentQuote.source}</small>
-            <a id="tweet-quote" href="http://twitter.com/intent/tweet">Tweet this quote.</a>
+
+            <a id="tweet-quote" href={this.state.currentQuote.tweetLink}>
+              Tweet this quote.
+            </a>
             <button id="new-quote" onClick={this.getNewQuote}>New quote</button>
           </article>
         </section>
