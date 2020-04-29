@@ -1,8 +1,8 @@
 # StarWars Quotes
 
-Random Star Wars quotes generator built using React. First project for the FreeCodeCamp "Front End Libraries" certification.
-
 [http://fermercadal.github.io/starwars-quotes](http://fermercadal.github.io/starwars-quotes)
+
+Random Star Wars quotes generator built using React. First project for the FreeCodeCamp "Front End Libraries" certification.
 
 [User stories](https://www.freecodecamp.org/learn/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine)
 
